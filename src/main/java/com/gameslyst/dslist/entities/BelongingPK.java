@@ -10,7 +10,7 @@ import java.util.Objects;
 public class BelongingPK {
 
     @ManyToOne
-    @JoinColumn(name = "games_id")
+    @JoinColumn(name = "game_id")
     private Games games;
 
     @ManyToOne
